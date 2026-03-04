@@ -6,9 +6,9 @@ dpkg -l|grep kvm 运行这个命名，查看qemu版本，下面的10.0.2-1代表
 
 ii pve-qemu-kvm             10.0.2-1              amd64    Full virtualization on x86 hardware 
 
-可以使用我的项目 https://github.com/lixiaoliu666/pve-anti-detection 的10.0版本deb实现q35有bios画面pve核显直通。ultra1 2代台式机和笔记本核显直通请使用 https://github.com/lixiaoliu666/intel-ultra-rom
+可以使用我的项目 https://github.com/AICodo/pve-anti-detection 的10.0版本deb实现q35有bios画面pve核显直通。ultra1 2代台式机和笔记本核显直通请使用 https://github.com/AICodo/intel-ultra-rom
 
-You can use the 10.0 version deb package from my project: https://github.com/lixiaoliu666/pve-anti-detection  enables Q35 BIOS display and integrated graphics passthrough in Proxmox VE (PVE). Ultra 1/2 generation desktops and laptops GPU Passthrough you can use https://github.com/lixiaoliu666/intel-ultra-rom
+You can use the 10.0 version deb package from my project: https://github.com/AICodo/pve-anti-detection  enables Q35 BIOS display and integrated graphics passthrough in Proxmox VE (PVE). Ultra 1/2 generation desktops and laptops GPU Passthrough you can use https://github.com/AICodo/intel-ultra-rom
 
 交流qq群 363074875（666)
 
@@ -64,7 +64,7 @@ If you don't want to compile and prefer to use it directly, simply use the 6-14-
 
 ①、首先下载本项目Download this project first
 
-git clone https://github.com/lixiaoliu666/intel6-14rom 可能会断掉，请多试几次。你可以使用代理加速（如何切换git clone后的版本自行百度）。
+git clone https://github.com/AICodo/intel6-14rom 可能会断掉，请多试几次。你可以使用代理加速（如何切换git clone后的版本自行百度）。
 因为只使用编译后的efi以及生成的rom
 
 ②、进入intel6-14rom目录运行一下 bash build_efi_rom.sh 成功
@@ -198,7 +198,7 @@ Build OVMF.fd for KVM 中的0001-0004.....patch这4个补丁，这4个补丁和h
 4.8、源码更新了什么
 
 
-4.9、如果你觉得以上操作都麻烦，可以直接fork本项目，然后直接actions进行云编译,或者直接下载本项目云编译releases里面的6-14-qemu10.rom和分别的rom https://github.com/lixiaoliu666/intel6-14rom/releases
+4.9、如果你觉得以上操作都麻烦，可以直接fork本项目，然后直接actions进行云编译,或者直接下载本项目云编译releases里面的6-14-qemu10.rom和分别的rom https://github.com/AICodo/intel6-14rom/releases
 
 感谢佛西和蜗牛网友写的actions能够实现本项目自动云编译和云发布releases
 
@@ -230,7 +230,8 @@ https://foxi.buduanwang.vip/virtualization/pve/1602.html/
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=lixiaoliu666/intel6-14rom&type=Date)](https://www.star-history.com/#lixiaoliu666/intel6-14rom&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=AICodo/intel6-14rom&type=Date)](https://www.star-history.com/#AICodo/intel6-14rom&Date)
+
 
 
 
